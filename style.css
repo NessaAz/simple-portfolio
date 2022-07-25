@@ -15,9 +15,64 @@ html, body{
 }
 
 h1, h2, h3, h4, h5, h6, strong{
+    color: var(--mainText);
+    font-weight: 500;
+}
 
+h1 { font-size: 56px;}
+h2 { font-size: 36px;}
+h3 { font-size: 28px;}
+h4 { font-size: 24px;}
+h5 { font-size: 20px;}
+h6 { font-size: 16px;}
+
+a{
+    text-decoration: none;
+    color: #212529;
 }
 
 p, li, span, label, input, textarea{
+    color: var(--secondaryText);
 
+}
+
+.s1{
+    background-color: var(--mainColor);
+    border-bottom: var(--borderColor) 1px solid;
+    overflow: auto;
+}
+
+.s2{
+    background-color: var(--secondaryColor);
+    border-bottom: var(--borderColor) 1px solid;
+    overflow: auto;
+}
+
+.main-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.greeting-wrapper{
+    display: grid;
+
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    border: 2px dashed #b5838d;
+    min-height: 20em;
+}
+
+.intro-wrapper{
+    background-color: var(--secondaryColor);
+    border: 1px solid var(--borderColor);
+    box-shadow: 31px 15px 21px 2px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 31px 15px 21px 2px rgba(0,0,0,0.59);
+    -moz-box-shadow: 31px 15px 21px 2px rgba(0,0,0,0.59);
+}
+
+@media screen and (max-width: 1200px){
+    .main-container{
+        width: 95%;
+    }
 }
