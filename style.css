@@ -1,0 +1,23 @@
+:root{
+    --mainColor: #ced4da;
+    --secondaryColor: #6c757d;
+
+    --borderColor: #b5838d;
+
+    --mainText:#343a40;
+    --secondaryText: #212529;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6, strong{
+
+}
+
+p, li, span, label, input, textarea{
+
+}
